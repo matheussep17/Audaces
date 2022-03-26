@@ -1,0 +1,27 @@
+{
+  "name": "audaces",
+  "version": "1.0.0",
+  "description": "avaliação qa",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matheussep17/Audaces.git"
+  },
+  "keywords": [
+    "automação",
+    "cypress"
+  ],
+  "author": "matheus torres ribeiro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matheussep17/Audaces/issues"
+  },
+  "homepage": "https://github.com/matheussep17/Audaces#readme",
+  "devDependencies": {
+    "cypress": "^9.5.2",
+    "cypress-xpath": "^1.6.2"
+  }
+}
