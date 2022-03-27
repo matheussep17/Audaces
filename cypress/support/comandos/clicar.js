@@ -13,4 +13,3 @@ Cypress.Commands.add("click_by_contains", (text) => {
 Cypress.Commands.add("click_by_contains_force", (text) => {
   cy.contains(text).click({ force: true });
 });
-

@@ -1,8 +1,8 @@
 describe("Test 3", () => {
-    const data = {
-      username: Cypress.env("auth_username"),
-      password: Cypress.env("auth_password"),
-    };
+  const data = {
+    username: Cypress.env("auth_username"),
+    password: Cypress.env("auth_password"),
+  };
 
   it("complete_registration", () => {
     cy.complete_registration(data);
