@@ -1,4 +1,4 @@
-describe("Test 3", () => {
+describe("Login audaces", () => {
   const data = {
     username: Cypress.env("auth_username"),
     password: Cypress.env("auth_password"),
