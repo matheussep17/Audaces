@@ -4,6 +4,13 @@ describe("Login audaces", () => {
     password: Cypress.env("auth_password"),
   };
 
+  it("all tests", () => {
+    cy.complete_registration(data);
+    cy.blank_fields();
+    cy.blank_password(data);
+    cy.blank_username(data);
+  });
+
   it("complete_registration", () => {
     cy.complete_registration(data);
   });
